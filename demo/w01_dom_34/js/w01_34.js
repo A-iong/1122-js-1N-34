@@ -30,6 +30,7 @@ function add () {
     //console.log(operand1, operand2, operand1 + operand2);
     currentResult = operand1 + operand2 ;
     const calText = `${operand1} + ${operand2}`
+    console. log(`${operand1} + ${operand2}=${currentResult}`)
     OutputResult(currentResult, calText);
 }
 
