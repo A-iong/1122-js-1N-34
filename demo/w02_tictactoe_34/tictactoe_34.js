@@ -23,24 +23,6 @@ const reset = () => {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const checkWin= (player) => {
     let p =[];
     allLi.forEach( (li) => {
@@ -65,7 +47,7 @@ const checkWin= (player) => {
     else
       return false;
 
-}
+};
 
 console.log('checkWin(o)', checkWin('o'));
 console.log('checkWin(x)', checkWin('x'));
@@ -102,7 +84,7 @@ allLi.forEach( (item) => {
      if(turn < 8) {
        turn++;
      } else if (turn >=8 ) {
-       alert('tie games');
+       alert('tie');
      }
    });
 });
