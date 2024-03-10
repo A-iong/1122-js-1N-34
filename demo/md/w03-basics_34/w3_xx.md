@@ -21,6 +21,16 @@
 ![](w03-p2-2.png)
 
 ```
+8ceb2ef A-iong  Mon Mar 11 00:51:14 2024 +0800  W03-P2: P2_xx temperature convert using Web
+```
+
+---
+
+### W03-P3: import sdata and students data from data_34.js
+
+![](w03-p3.png)
+
+```
 
 ```
 
@@ -29,5 +39,5 @@
 ### W03-p4: git logs for W03
 
 ```
-git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-03-26"
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-03-06"
 ```
