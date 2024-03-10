@@ -31,7 +31,17 @@
 ![](w03-p3.png)
 
 ```
+dc1dddb A-iong  Mon Mar 11 01:06:14 2024 +0800  W03-P3: import sdata and students data from data_34.js
+```
 
+---
+
+### W03-P4: Compute highest and lowest score of sdata and students2
+
+![](w03-p4.png)
+
+```
+dc1dddb A-iong  Mon Mar 11 01:06:14 2024 +0800  W03-P3: import sdata and students data from data_34.js
 ```
 
 ---
