@@ -41,13 +41,18 @@ dc1dddb A-iong  Mon Mar 11 01:06:14 2024 +0800  W03-P3: import sdata and student
 ![](w03-p4.png)
 
 ```
-dc1dddb A-iong  Mon Mar 11 01:06:14 2024 +0800  W03-P3: import sdata and students data from data_34.js
+03693c4 A-iong  Mon Mar 11 01:19:27 2024 +0800  W03-P4: Compute highest and lowest score of sdata and students2
 ```
 
 ---
 
-### W03-p4: git logs for W03
+### W03-p5: git logs for W03
 
 ```
 git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-03-06"
+
+8ceb2ef A-iong  Mon Mar 11 00:51:14 2024 +0800  W03-P2: P2_xx temperature convert using Web
+8ceb2ef A-iong  Mon Mar 11 00:51:14 2024 +0800  W03-P2: P2_xx temperature convert using Web
+dc1dddb A-iong  Mon Mar 11 01:06:14 2024 +0800  W03-P3: import sdata and students data from data_34.js
+03693c4 A-iong  Mon Mar 11 01:19:27 2024 +0800  W03-P4: Compute highest and lowest score of sdata and students2
 ```
