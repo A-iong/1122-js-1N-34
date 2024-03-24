@@ -33,6 +33,15 @@ const displayMenuItems = (menu) => {
     sectionCenter.innerHTML = displayMenu;
 };
 
+
+const categories = ['all','breakfast','lunch','dinner','shakes'] 
+
+const displayMenuButtons = () => {
+
+}
+
+
 window.addEventListener('DOMContentLoaded',() =>{
     displayMenuItems(menu);
+    displayMenuButtons()
 });
