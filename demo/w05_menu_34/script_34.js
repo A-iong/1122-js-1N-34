@@ -29,16 +29,23 @@ const displayMenuItems = (menu) => {
         `;
     })
     .join('');
-    console.log('displayMenu', displayMenu);
+    //console.log('displayMenu', displayMenu);
     sectionCenter.innerHTML = displayMenu;
 };
 
+//const categories = ['all','breakfast','lunch','dinner','shakes'] 
 
-const categories = ['all','breakfast','lunch','dinner','shakes'] 
+const menuCategories = new Set(
+  menu.map((item) =>{
+    return item.category;
+  } )
+);
+console.log('menuCategories',menuCategories);
 
-const displayMenuButtons = () => {
+const categories = ['all', ...menuCategories];
+console.log('categories',categories);
 
-}
+const displayMenuButtons = () => {}
 
 
 window.addEventListener('DOMContentLoaded',() =>{
