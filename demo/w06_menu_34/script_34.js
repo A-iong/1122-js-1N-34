@@ -46,7 +46,18 @@ console.log('menuCategories',menuCategories);
 
 const categories = ['all', ...menuCategories];
 console.log('categories',categories);
-const displayMenuButtons = () => {}
+
+const displayMenuButtons = () => {
+  let menuButtons = categories
+  .map((category) =>{
+    return`
+    <button type="button" class="filter-btn" data-id=${category}>${category}</button>
+    ` 
+  })
+  .join('');
+console.log('menuButtons',menuButtons);
+btnContainer.innerHTML = menuButtons ;
+};
 
 
 window.addEventListener('DOMContentLoaded',() =>{
