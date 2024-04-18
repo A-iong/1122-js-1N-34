@@ -13,6 +13,13 @@ let tours_xx = [
       local_img: './tour_theme/img/ireland.jpeg',
       price: 3895
     },
+    { 
+      id: 3,
+      name: 'Best Of Taiwan In 14 Days Tour',
+      info: "最美的101 1000日行程",
+      local_img: './tour_theme/img/taiwan.jpg',
+      price: 2895
+    },
   ];
   
   const section = document.querySelector('.section-center');
