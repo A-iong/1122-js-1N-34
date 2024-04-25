@@ -19,6 +19,10 @@ VALUES
 (2, 'Accent Chair',25.99, 'Caressa', './images/product-2.jpg',''),
 
 
+INSERT INTO product_34 (id, title, price, category, img, remote_img)
+VALUES 
+(20, 'Nathan sofa',88.99, 'Ikea', './images/product-20.jpg','https://wkuwjlgjzkovodskzcca.supabase.co/storage/v1/object/public/demo-34/1122/nathan-fertig-FBXuXp57eM0-unsplash.jpg'),
+
 
 INSERT INTO product_34 (id, title, price, category, img, remote_img)
 VALUES 
