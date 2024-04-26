@@ -1,6 +1,6 @@
-export const products_xx = [];
+export const products_34 = [];
 
-export const all_products_xx = [
+export const all_products_34 = [
   {
     id: 1,
     title: 'Emperor Bed',
@@ -86,7 +86,7 @@ export const all_products_xx = [
     title: 'Albany Table',
     price: 79.99,
     category: 'Marcos',
-    img: '/images/product-11.jpg',
+    img: './images/product-11.jpg',
     remote_img: '',
   },
   {
@@ -94,7 +94,15 @@ export const all_products_xx = [
     title: 'Leather Sofa',
     price: 39.95,
     category: 'Liddy',
-    img: '/images/product-12.jpg',
+    img: './images/product-12.jpg',
+    remote_img: '',
+  },
+  {
+    id: 20,
+    title: 'Leather Sofa',
+    price: 39.95,
+    category: 'Liddy',
+    img: './images/product-20.jpg',
     remote_img: '',
   },
 ];

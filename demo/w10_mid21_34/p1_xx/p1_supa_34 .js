@@ -9,8 +9,7 @@ let products_34 = [];
 const getProductsSupabase_34 = async () =>{
  try{ 
   
-let { data, error } = await _supabase.from('product_34')
-.select('*')
+let { data, error } = await _supabase.from('product_34').select('*')
 console.log('product data', data);
  return data;
  } catch(error){
@@ -18,13 +17,29 @@ console.log('product data', data);
  }
 }
 
-
-
 const productContainer = document.querySelector('.products-container');
 
 console.log('products_34', products_34);
 
-const DisplayProducts = (products) => {};
+const DisplayProducts = (products) => {
+  let productsContent = products.map((product) => {
+    const{id, title, price, category, img, remote_url } = product;
+    return`
+    <div class="single-product">
+    <img
+      src=${img}
+      class="single-product-img img"
+      alt=${title}
+    />
+    <footer>
+      <h3 class="name">${title} (${id})</h3>
+      <span class="price">$${price}</span>
+    </footer>
+  </div>
+    `;
+  }).join('');
+  productContainer.innerHTML = productsContent;
+};
 
 document.addEventListener('DOMContentLoaded',async () => {
   products_34 = await getProductsSupabase_34();
