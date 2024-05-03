@@ -2,26 +2,25 @@
 
 import { _supabase } from "./clientSupabase_34.js";
 
-console.log('_supabase', _supabase);
+// console.log('_supabase', _supabase);
 
 let products_34 = [];
 
 const getProductsSupabase_34 = async () =>{
- try{ 
-  
-let { data, error } = await _supabase.from('product_34').select('*')
-console.log('product data', data);
+ try{  
+let { data, error } = await _supabase.from('product_34').select('*');
+ console.log('product data', data);
  return data;
- } catch(error){
+ } catch (error){
   console.log(error);
  }
 }
 
 const productContainer = document.querySelector('.products-container');
 
-console.log('products_34', products_34);
+console.log('products_34', product_34);
 
-const DisplayProducts = (products) => {
+const displayProducts = (products) => {
   let productsContent = products.map((product) => {
     const{id, title, price, category, img, remote_url } = product;
     return`
@@ -43,5 +42,5 @@ const DisplayProducts = (products) => {
 
 document.addEventListener('DOMContentLoaded',async () => {
   products_34 = await getProductsSupabase_34();
-  DisplayProducts(products_34);
+  displayProducts(products_34);
 });
