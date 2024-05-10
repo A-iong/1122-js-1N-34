@@ -5,6 +5,7 @@ btn.addEventListener('click',() => {
     getData(url);
 });
 
+
 function getData(url){
     const xhr = new XMLHttpRequest();
     console.log('xhr0',xhr);
@@ -20,7 +21,7 @@ function getData(url){
                 <p>${item.name}</p>
            `; 
          }).join('');
-         const element = document.createElement("div");
+         const element = document.createElement('div');
          element.innerHTML = displayData;
          document.body.appendChild(element);
         }else{
