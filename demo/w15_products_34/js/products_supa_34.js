@@ -4,20 +4,22 @@ import { _supabase } from "./clientSupabase_34.js";
 
 let products_34 = [];
 
+const productContainer = document.querySelector(".products-container");
+const companyBtns = document.querySelectorAll(".company-btn");
+
+console.log("products_34", products_34);
+
 const getProductsSupabase_34 = async () => {
   try {
-    let { data, error } = await _supabase.from("products_34").select("*");
-    console.log("products data", data);
+    let { data, error } = await _supabase
+      .from("products_34")
+      .select("*, company_34(*)");
+    // console.log("products data", data);
     return data;
   } catch (error) {
     console.log(error);
   }
 };
-
-const productContainer = document.querySelector(".products-container");
-const companyBtns = document.querySelectorAll(".company-btn");
-
-console.log("products_34", products_34);
 
 const displayProducts = (products) => {
   let productsContent = products
@@ -45,20 +47,15 @@ companyBtns.forEach((btn) => {
   btn.addEventListener("click", async (e) => {
     const companyName = e.currentTarget.dataset.id;
     console.log("companyName", companyName);
+    const products = await getProductsSupabase_34();
     if (companyName === "all") {
-      products_34 = await getProductsSupabase_34();
+      products_34 = products;
     } else {
-      let { data: company, error1 } = await _supabase
-        .from("company_34")
-        .select("id")
-        .eq("name", companyName);
-      console.log("company id", company[0].id);
-      let { data, error } = await _supabase
-        .from("products_34")
-        .select("*")
-        .eq("companyId", company[0].id);
-        console.log(`${companyName} products`, data)
+      products_34 = products.filter(
+        (product) => product.company_34.name === companyName
+      );
     }
+    console.log(`${companyName} products`, products_34);
     displayProducts(products_34);
   });
 });
