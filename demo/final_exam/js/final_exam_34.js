@@ -4,6 +4,8 @@ let products_34 = [];
 
 const productContainer = document.querySelector(".products-container");
 const companyBtns = document.querySelectorAll(".company-btn");
+const clearBtn = document.querySelector('.clear-btn')
+const fetchBtn = document.querySelector('.fetch-btn')
 
 console.log("products_34", products_34);
 
@@ -57,6 +59,16 @@ companyBtns.forEach((btn) => {
     displayProducts(products_34);
   });
 });
+
+clearBtn.addEventListener('click', () => {
+  products_34 = [];
+  displayProducts(products_34)
+})
+
+fetchBtn.addEventListener('click', async () => {
+  products_34 = await getProductsSupabase_34()
+  displayProducts(products_34)
+})
 
 document.addEventListener("DOMContentLoaded", async () => {
   products_34 = await getProductsSupabase_34();

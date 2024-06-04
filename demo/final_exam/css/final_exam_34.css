@@ -102,6 +102,30 @@ Product
 .main-section .filter-left .left-content .company-btn:hover {
   color: var(--grey-800);
 }
+.main-section .filter-left .left-content .clear-btn {
+  display: block;
+  width: 80%;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 0, 0, 0.2);
+  color: rgba(255, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  cursor: pointer;
+}
+.main-section .filter-left .left-content .fetch-btn {
+  display: block;
+  width: 80%;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 255, 0.2);
+  color: rgba(0, 0, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  border: 1px solid rgba(0, 0, 255, 0.4);
+  cursor: pointer;
+}
 .main-section .products-right {
   height: 100%;
 }
