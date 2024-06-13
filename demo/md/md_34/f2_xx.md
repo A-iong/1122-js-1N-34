@@ -13,7 +13,7 @@
 7. 有標註要 git log 的題目，必須要做，這是我們上課練習的一部分。
 8. 請自評分數，將每一題的 ? 填入分數，沒有填者，不會批改，以 0 分計算。
 
-##### Your (Name, ID): (?, ?)
+##### Your (Name, ID): (陳柏仰, 210410634)
 
 ##### f2 開放網路題目 (50%)
 
@@ -46,16 +46,17 @@
 
 ##### => My Github repo URL
 
-[My Github repo URL for demo]()
+[https://github.com/A-iong/1122-js-demo-34](https://github.com/A-iong/1122-js-demo-34)
 
 #### => 下圖左邊框顯示所有的 demo，右邊框顯示所有的 md
 
-![f2-p1-1-2.png](f2-p1-1-2.png)
+<!-- ![f2-p1-1-2.png](f2-p1-1-2.png) -->
+![f2-p1-1-1.png](f2-p1-1-1.png)
 
 ##### => git log
 
 ```
-
+acec8cf A-iong  Thu Jun 13 19:38:47 2024 +0800  P1-2: Show all your git logs from W10 to W15
 ```
 
 ---
@@ -64,7 +65,7 @@
 
 ##### => My Github URL for git logs，標註本學期 git log 次數
 
-[My Github URL for git logs]()
+[https://github.com/A-iong/1122-js-demo-34 for git logs](https://github.com/A-iong/1122-js-demo-34/commits/main/)
 
 ![f2-p1-2-1.png](f2-p1-2-1.png)
 
@@ -84,19 +85,19 @@
 
 ##### => My Github URL for git logs，標註本學期 git log 次數
 
-![f2-p1-2-5.png](f2-p1-2-5.png)
+![f2-p1-2-1.png](f2-p1-2-1.png)
 
 #### => git log for w15 and w14
 
-![f2-p1-2-6.png](f2-p1-2-6.png)
+![f2-p1-2-2.png](f2-p1-2-2.png)
 
 #### => git log for w13 and w12
 
-![f2-p1-2-7.png](f2-p1-2-7.png)
+![f2-p1-2-3.png](f2-p1-2-3.png)
 
 #### => git log for w11 and w10
 
-![f2-p1-2-8.png](f2-p1-2-8.png)
+![f2-p1-2-4.png](f2-p1-2-4.png)
 
 ##### => git log
 
@@ -116,7 +117,7 @@
 
 #### Your Answer
 
-[w15 product demo in Vercel](https://1122-js-demo-xx.vercel.app/#)
+[w15 product demo in Vercel](https://1122-js-demo-34-q5tonu4g5-aiongs-projects.vercel.app/index_34.html#)
 
 ##### => 顯示在 Vercel 上的 demo
 
