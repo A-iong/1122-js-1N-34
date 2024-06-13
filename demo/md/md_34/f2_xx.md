@@ -102,7 +102,7 @@ acec8cf A-iong  Thu Jun 13 19:38:47 2024 +0800  P1-2: Show all your git logs fro
 ##### => git log
 
 ```
-
+acec8cf A-iong  Thu Jun 13 19:38:47 2024 +0800  P1-2: Show all your git logs from W10 to W15
 ```
 
 ---
@@ -126,7 +126,7 @@ acec8cf A-iong  Thu Jun 13 19:38:47 2024 +0800  P1-2: Show all your git logs fro
 ##### => git log
 
 ```
-
+90c4b82 A-iong  Thu Jun 13 20:33:46 2024 +0800  P1-3: 佈署 w15 product demo 到 Vercel，並顯示如下資訊
 ```
 
 ---
